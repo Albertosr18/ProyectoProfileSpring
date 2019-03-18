@@ -8,6 +8,7 @@
 		<module>service</module>
 		<module>Controller</module>
 		<module>Model</module>
+		<module>repository</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
