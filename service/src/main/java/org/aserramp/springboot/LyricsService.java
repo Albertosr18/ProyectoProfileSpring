@@ -1,7 +1,5 @@
 package org.aserramp.springboot;
 
-
-
-public interface LyricRepository {
+public interface LyricsService {
     public String getLyrics(String artist, String song);
 }
