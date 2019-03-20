@@ -7,7 +7,7 @@
 		<module>boot</module>
 		<module>Controller</module>
 		<module>service</module>
-		<module>Model</module>
+		<module>model</module>
 		<module>repository</module>
 	</modules>
 	<parent>

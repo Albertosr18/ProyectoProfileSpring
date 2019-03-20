@@ -1,23 +1,16 @@
 package org.aserramp.springboot;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 
-import javax.websocket.server.PathParam;
+public interface LyricsController {
 
-
-@RestController
-public class LyricsController {
-
-    @Autowired
-    private ArtistService service;
-
-    @RequestMapping(value="/lyrics/{artist}/{song}", method = RequestMethod.GET)
-    public String Lyrics(@PathVariable(value="artist") String artist, @PathVariable(value="song") String song) {
-        return service.getLyrics(artist, song);
-    }
+    @GetMapping(value="lyrics/{artist}/{song}")
+    Lyric getLyrics(@PathVariable(value="artist") String artist, @PathVariable(value="song") String song);
 
 
-
+    @PostMapping(value="lyrics/{artist}/{song}")
+    Lyric postLyrics(@PathVariable(value="artist") String artist, @PathVariable(value="song") String song);
 
 }

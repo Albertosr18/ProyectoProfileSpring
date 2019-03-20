@@ -1,4 +1,2 @@
-Cancion$CancionBuilder.class
-Artista.class
-Cancion.class
-Artista$ArtistaBuilder.class
+org\aserramp\springboot\Lyric.class
+org\aserramp\springboot\Lyric$LyricBuilder.class

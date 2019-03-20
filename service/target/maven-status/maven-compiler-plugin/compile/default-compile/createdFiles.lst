@@ -1,1 +1,2 @@
-service\LyricService\ArtistService.class
+org\aserramp\springboot\LyricsServiceImpl.class
+org\aserramp\springboot\LyricsService.class

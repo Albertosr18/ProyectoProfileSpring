@@ -12,7 +12,7 @@
     <dependencies>
         <dependency>
             <groupId>org.aserramp</groupId>
-            <artifactId>Controller</artifactId>
+            <artifactId>controller</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
